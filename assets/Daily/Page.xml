@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <component size="750,1334" overflow="hidden">
-  <controller name="Page" pages="0,,1,,2,,3,,4,,5," selected="5">
+  <controller name="Page" pages="0,,1,,2,,3,,4,,5,,6," selected="6">
     <action type="play_transition" fromPage="" toPage="1" transition="ShowPage1"/>
     <action type="play_transition" fromPage="" toPage="2" transition="ShowPage2"/>
     <action type="play_transition" fromPage="" toPage="3" transition="ShowPage3"/>
     <action type="play_transition" fromPage="" toPage="4" transition="ShowPage4"/>
     <action type="play_transition" fromPage="" toPage="5" transition="ShowPage5"/>
+    <action type="play_transition" fromPage="" toPage="6" transition="ShowPage6"/>
   </controller>
   <displayList>
     <graph id="n4_8dw9" name="n4" xy="0,0" size="750,1334" group="n7_8dw9" aspect="true" type="rect">
@@ -16,7 +17,7 @@
     </text>
     <component id="n6_8dw9" name="StartButton" src="8dw9f" fileName="Components/CommonTextButton.xml" xy="275,887" group="n7_8dw9">
       <relation target="" sidePair="center-center,middle-middle"/>
-      <Button controller="Page" page="5"/>
+      <Button controller="Page" page="6"/>
     </component>
     <group id="n7_8dw9" name="Page0" xy="0,0" size="750,1334" advanced="true">
       <gearDisplay controller="Page" pages="0"/>
@@ -77,6 +78,10 @@
     <graph id="n63_pht3" name="block" xy="0,0" size="750,1334" visible="false" alpha="0" type="rect">
       <relation target="" sidePair="width-width,height-height"/>
     </graph>
+    <component id="n85_ebwa" name="TileGame" src="ebwat38" fileName="TileGame/TileGame.xml" xy="0,0" group="n86_ebwa"/>
+    <group id="n86_ebwa" name="Page6" xy="0,0" size="750,1334" advanced="true">
+      <gearDisplay controller="Page" pages="6"/>
+    </group>
   </displayList>
   <transition name="ShowPage1">
     <item time="0" type="Visible" target="n1_8dw9" value="true"/>
@@ -123,5 +128,9 @@
   </transition>
   <transition name="ShowPage5">
     <item time="0" type="Visible" target="n76_cf7n" value="true"/>
+  </transition>
+  <transition name="ShowPage6">
+    <item time="0" type="Visible" target="n80_ebwa" value="true"/>
+    <item time="0" type="Visible" target="n86_ebwa" value="true"/>
   </transition>
 </component>

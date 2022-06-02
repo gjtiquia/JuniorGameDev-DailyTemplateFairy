@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,1334">
+  <displayList>
+    <image id="n1_ebwa" name="bg" src="ebwat39" fileName="TileGame/Images/bg.png" xy="0,0"/>
+    <component id="n5_ebwa" name="Tile-1" src="ebwat3a" fileName="TileGame/Components/SingleTile.xml" xy="316,670" group="n20_ebwa"/>
+    <component id="n7_ebwa" name="Tile-2" src="ebwat3a" fileName="TileGame/Components/SingleTile.xml" xy="316,670" group="n20_ebwa"/>
+    <component id="n6_ebwa" name="Tile-3" src="ebwat3a" fileName="TileGame/Components/SingleTile.xml" xy="316,670" group="n20_ebwa"/>
+    <component id="n8_ebwa" name="Tile-4" src="ebwat3a" fileName="TileGame/Components/SingleTile.xml" xy="316,670" group="n20_ebwa"/>
+    <component id="n4_ebwa" name="Tile-5" src="ebwat3a" fileName="TileGame/Components/SingleTile.xml" xy="316,670" group="n20_ebwa"/>
+    <component id="n9_ebwa" name="Tile-6" src="ebwat3a" fileName="TileGame/Components/SingleTile.xml" xy="316,670" group="n20_ebwa"/>
+    <component id="n10_ebwa" name="Tile-7" src="ebwat3a" fileName="TileGame/Components/SingleTile.xml" xy="316,670" group="n20_ebwa"/>
+    <component id="n11_ebwa" name="Tile-8" src="ebwat3a" fileName="TileGame/Components/SingleTile.xml" xy="316,670" group="n20_ebwa"/>
+    <component id="n12_ebwa" name="Tile-9" src="ebwat3a" fileName="TileGame/Components/SingleTile.xml" xy="316,670" group="n20_ebwa"/>
+    <component id="n13_ebwa" name="Tile-10" src="ebwat3a" fileName="TileGame/Components/SingleTile.xml" xy="316,670" group="n20_ebwa"/>
+    <component id="n15_ebwa" name="Tile-11" src="ebwat3a" fileName="TileGame/Components/SingleTile.xml" xy="316,670" group="n20_ebwa"/>
+    <component id="n14_ebwa" name="Tile-12" src="ebwat3a" fileName="TileGame/Components/SingleTile.xml" xy="316,674" group="n20_ebwa"/>
+    <component id="n16_ebwa" name="Tile-13" src="ebwat3a" fileName="TileGame/Components/SingleTile.xml" xy="316,670" group="n20_ebwa"/>
+    <component id="n17_ebwa" name="Tile-14" src="ebwat3a" fileName="TileGame/Components/SingleTile.xml" xy="316,670" group="n20_ebwa"/>
+    <component id="n18_ebwa" name="Tile-15" src="ebwat3a" fileName="TileGame/Components/SingleTile.xml" xy="316,670" group="n20_ebwa"/>
+    <component id="n19_ebwa" name="Tile-16" src="ebwat3a" fileName="TileGame/Components/SingleTile.xml" xy="316,670" group="n20_ebwa"/>
+    <group id="n20_ebwa" name="Tiles" xy="316,670" size="135,139"/>
+  </displayList>
+</component>

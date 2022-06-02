@@ -43,6 +43,10 @@
     <image id="ebwat31" name="Circle.png" path="/TicTacToe/Images/"/>
     <component id="ebwat32" name="Tile.xml" path="/TicTacToe/Components/" exported="true"/>
     <image id="ebwat37" name="Cross.png" path="/TicTacToe/Images/"/>
+    <component id="ebwat38" name="TileGame.xml" path="/TileGame/" exported="true"/>
+    <image id="ebwat39" name="bg.png" path="/TileGame/Images/"/>
+    <component id="ebwat3a" name="SingleTile.xml" path="/TileGame/Components/" exported="true"/>
+    <image id="ebwat3b" name="tile2.png" path="/TileGame/Images/"/>
   </resources>
   <publish name="" genCode="true"/>
 </packageDescription>
