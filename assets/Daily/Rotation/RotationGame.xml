@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,1334">
+  <controller name="c1" pages="0,,1," selected="0">
+    <action type="play_transition" fromPage="" toPage="" transition="ClickToStart-loop"/>
+  </controller>
+  <displayList>
+    <component id="n29_ox78" name="Puzzle-0" src="mwwv1c" fileName="Rotation/Puzzle.xml" xy="6,298" pivot="0.5,0.5" size="246,246" controller="Image,0">
+      <relation target="" sidePair=""/>
+    </component>
+    <component id="n30_ox78" name="Puzzle-1" src="mwwv1c" fileName="Rotation/Puzzle.xml" xy="252,298" pivot="0.5,0.5" size="246,246" controller="Image,1"/>
+    <component id="n31_ox78" name="Puzzle-2" src="mwwv1c" fileName="Rotation/Puzzle.xml" xy="498,298" pivot="0.5,0.5" size="246,246" controller="Image,2"/>
+    <component id="n32_ox78" name="Puzzle-3" src="mwwv1c" fileName="Rotation/Puzzle.xml" xy="6,544" pivot="0.5,0.5" size="246,246" controller="Image,3"/>
+    <component id="n33_ox78" name="Puzzle-4" src="mwwv1c" fileName="Rotation/Puzzle.xml" xy="252,544" pivot="0.5,0.5" size="246,246" controller="Image,4"/>
+    <component id="n34_ox78" name="Puzzle-5" src="mwwv1c" fileName="Rotation/Puzzle.xml" xy="498,544" pivot="0.5,0.5" size="246,246" controller="Image,5"/>
+    <component id="n42_aocy" name="Puzzle-6" src="mwwv1c" fileName="Rotation/Puzzle.xml" xy="6,790" pivot="0.5,0.5" size="246,246" controller="Image,6"/>
+    <component id="n36_ox78" name="Puzzle-7" src="mwwv1c" fileName="Rotation/Puzzle.xml" xy="252,790" pivot="0.5,0.5" size="246,246" controller="Image,7"/>
+    <component id="n37_ox78" name="Puzzle-8" src="mwwv1c" fileName="Rotation/Puzzle.xml" xy="498,790" pivot="0.5,0.5" size="246,246" controller="Image,8"/>
+    <graph id="n44_ocu0" name="ClickToStartButton" xy="-649,-101" size="2048,1536" alpha="0.3" type="rect">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <image id="n47_ndjq" name="n47" src="ndjqt2p" fileName="Rotation/clickToStartImg/frame.png" xy="221,611" pivot="0.5,0.5" group="n50_ndjq">
+      <relation target="" sidePair="width-width,height-height,center-center,middle-middle"/>
+    </image>
+    <text id="n48_ndjq" name="title" xy="221,606" pivot="0.5,0.5" size="305,114" group="n50_ndjq" fontSize="50" color="#ffffff" align="center" vAlign="middle" letterSpacing="-3" autoSize="none" bold="true" singleLine="true" text="点击开始">
+      <relation target="" sidePair="width-width,height-height,center-center,middle-middle"/>
+    </text>
+    <image id="n49_ndjq" name="n49" src="ndjqt2o" fileName="Rotation/clickToStartImg/finger.png" xy="453,686" pivot="1,1" size="138,200" group="n50_ndjq" aspect="true"/>
+    <group id="n50_ndjq" name="n50" xy="221,606" size="370,280" advanced="true"/>
+    <text id="n45_ocu0" name="n45" xy="149,90" size="413,92" visible="false" fontSize="70" align="center" vAlign="middle" text="Click to start!"/>
+  </displayList>
+  <transition name="StartGame">
+    <item time="0" type="Alpha" target="n50_ndjq" tween="true" startValue="1" endValue="0" duration="4"/>
+    <item time="0" type="Sound" value="ui://16q0hed8p6dit2x,50"/>
+    <item time="0" type="Visible" target="n44_ocu0" value="false"/>
+  </transition>
+  <transition name="ClickToStart-motion" autoPlay="true" autoPlayRepeat="-1">
+    <item time="0" type="Rotation" target="n49_ndjq" tween="true" startValue="0" endValue="-6" duration="3"/>
+    <item time="3" type="Rotation" target="n49_ndjq" tween="true" startValue="-6" endValue="0" duration="3"/>
+    <item time="6" type="Rotation" target="n49_ndjq" tween="true" startValue="0" endValue="-6" duration="3"/>
+    <item time="9" type="Rotation" target="n49_ndjq" tween="true" startValue="-6" endValue="0" duration="3"/>
+    <item time="12" type="Rotation" target="n49_ndjq" tween="true" startValue="0" endValue="0" duration="24"/>
+  </transition>
+  <transition name="ClickToStart-loop">
+    <item time="0" type="Scale" target="n47_ndjq" tween="true" startValue="1,1" endValue="1.04,1.04" duration="12" repeat="-1" yoyo="true"/>
+    <item time="0" type="Scale" target="n48_ndjq" tween="true" startValue="1,1" endValue="1.04,1.04" duration="12" repeat="-1" yoyo="true"/>
+    <item time="0" type="Transition" value="ClickToStart-motion,-1"/>
+  </transition>
+</component>

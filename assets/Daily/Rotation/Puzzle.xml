@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="246,246">
+  <controller name="Image" exported="true" pages="0,,1,,2,,3,,4,,5,,6,,7,,8," selected="0"/>
+  <displayList>
+    <loader id="n29_ox78" name="Puzzle-0" xy="0,0" pivot="0.5,0.5" size="246,246" url="ui://16q0hed8ofnk1y" align="center" vAlign="middle" fill="scaleFree">
+      <gearIcon controller="Image" pages="0,1,2,3,4,5,6,7,8" values="ui://16q0hed8ofnk1y|ui://16q0hed8ofnk1r|ui://16q0hed8ofnk1s|ui://16q0hed8ofnk1x|ui://16q0hed8ofnk1z|ui://16q0hed8ofnk1t|ui://16q0hed8ofnk1w|ui://16q0hed8ofnk1v|ui://16q0hed8ofnk1u"/>
+      <relation target="" sidePair="width-width,height-height,center-center,middle-middle"/>
+    </loader>
+  </displayList>
+</component>

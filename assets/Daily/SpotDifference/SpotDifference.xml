@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,1334">
+  <controller name="Page" pages="0,,1," selected="0">
+    <action type="play_transition" fromPage="" toPage="1" transition=""/>
+  </controller>
+  <displayList>
+    <graph id="n5_yayy" name="bg" xy="0,0" size="750,1334" visible="false" type="rect">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <loader id="n2_yayy" name="LeftImage" xy="29,244" size="680,455" url="ui://16q0hed8bhy32d" vAlign="middle" fill="scale"/>
+    <loader id="n4_yayy" name="RightImage" xy="29,828" size="680,455" url="ui://16q0hed8bhy32c" vAlign="middle" fill="scale"/>
+    <component id="n6_yayy" name="ScoreBar" src="yayy3" fileName="SpotDifference/Components/ScoreBar.xml" xy="175,63" size="400,50" visible="false">
+      <ProgressBar value="5" max="5"/>
+    </component>
+    <component id="n13_yayy" name="Spot-A-1" src="yayy5" fileName="SpotDifference/Components/Spot.xml" xy="411,477" size="218,50" group="n18_yayy"/>
+    <component id="n14_yayy" name="Spot-A-2" src="yayy5" fileName="SpotDifference/Components/Spot.xml" xy="274,442" size="79,83" group="n18_yayy"/>
+    <component id="n15_yayy" name="Spot-A-3" src="yayy5" fileName="SpotDifference/Components/Spot.xml" xy="98,378" size="115,137" group="n18_yayy"/>
+    <component id="n16_yayy" name="Spot-A-4" src="yayy5" fileName="SpotDifference/Components/Spot.xml" xy="274,556" size="78,91" group="n18_yayy"/>
+    <component id="n17_yayy" name="Spot-A-5" src="yayy5" fileName="SpotDifference/Components/Spot.xml" xy="313,293" size="236,92" group="n18_yayy"/>
+    <component id="n29_bhy3" name="Spot-B-1" src="yayy5" fileName="SpotDifference/Components/Spot.xml" xy="412,1071" size="218,50" group="n18_yayy"/>
+    <component id="n30_bhy3" name="Spot-B-2" src="yayy5" fileName="SpotDifference/Components/Spot.xml" xy="275,1036" size="79,83" group="n18_yayy"/>
+    <component id="n31_bhy3" name="Spot-B-3" src="yayy5" fileName="SpotDifference/Components/Spot.xml" xy="99,972" size="115,137" group="n18_yayy"/>
+    <component id="n32_bhy3" name="Spot-B-4" src="yayy5" fileName="SpotDifference/Components/Spot.xml" xy="275,1150" size="78,91" group="n18_yayy"/>
+    <component id="n33_bhy3" name="Spot-B-5" src="yayy5" fileName="SpotDifference/Components/Spot.xml" xy="314,887" size="236,92" group="n18_yayy"/>
+    <group id="n18_yayy" name="Spots" xy="98,293" size="532,948" advanced="true"/>
+    <list id="n34_ndjq" name="AnsCheckList" xy="0,726" size="750,64" layout="row" overflow="scroll" lineGap="32" colGap="18" defaultItem="ui://16q0hed8ndjqt2t" autoItemSize="false" align="center" vAlign="middle">
+      <item title="1"/>
+      <item title="2"/>
+      <item title="3"/>
+      <item title="4"/>
+      <item title="5"/>
+    </list>
+    <list id="n27_yayy" name="AnsCheckList-" xy="0,744" size="750,30" visible="false" layout="row" overflow="scroll" lineGap="32" colGap="18" defaultItem="ui://16q0hed8yayy7" autoItemSize="false" align="center" vAlign="middle">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <text id="n28_yayy" name="CompleteText" xy="104,591" size="541,152" visible="false" fontSize="80" color="#00ff00" align="center" vAlign="middle" autoSize="none" bold="true" strokeColor="#000000" strokeSize="3" text="Completed!">
+      <gearDisplay controller="Page" pages="1"/>
+    </text>
+  </displayList>
+</component>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="100,20" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <graph id="n0_yayy" name="circle" xy="0,0" size="100,20" alpha="0" type="eclipse" lineSize="5" lineColor="#ffff0000" fillColor="#00ffffff">
+      <relation target="" sidePair="width-width,height-height,center-center"/>
+    </graph>
+  </displayList>
+  <Button/>
+  <transition name="Display">
+    <item time="0" type="Alpha" target="n0_yayy" tween="true" startValue="0" endValue="1" duration="12"/>
+  </transition>
+</component>

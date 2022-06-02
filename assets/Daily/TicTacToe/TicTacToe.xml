@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,1334">
+  <displayList>
+    <image id="n0_ebwa" name="n0" src="ebwat30" fileName="TicTacToe/Images/TicTacToeGrid.png" xy="0,300"/>
+    <component id="n2_ebwa" name="Tile-1" src="ebwat32" fileName="TicTacToe/Components/Tile.xml" xy="0,300" size="250,250" group="n12_ebwa" controller="state,3"/>
+    <component id="n4_ebwa" name="Tile-2" src="ebwat32" fileName="TicTacToe/Components/Tile.xml" xy="250,300" size="250,250" group="n12_ebwa" controller="state,3"/>
+    <component id="n5_ebwa" name="Tile-3" src="ebwat32" fileName="TicTacToe/Components/Tile.xml" xy="500,300" size="250,250" group="n12_ebwa" controller="state,3"/>
+    <component id="n6_ebwa" name="Tile-4" src="ebwat32" fileName="TicTacToe/Components/Tile.xml" xy="0,550" size="250,250" group="n12_ebwa" controller="state,3"/>
+    <component id="n7_ebwa" name="Tile-5" src="ebwat32" fileName="TicTacToe/Components/Tile.xml" xy="250,550" size="250,250" group="n12_ebwa" controller="state,3"/>
+    <component id="n8_ebwa" name="Tile-6" src="ebwat32" fileName="TicTacToe/Components/Tile.xml" xy="500,550" size="250,250" group="n12_ebwa" controller="state,3"/>
+    <component id="n9_ebwa" name="Tile-7" src="ebwat32" fileName="TicTacToe/Components/Tile.xml" xy="0,800" size="250,250" group="n12_ebwa" controller="state,3"/>
+    <component id="n10_ebwa" name="Tile-8" src="ebwat32" fileName="TicTacToe/Components/Tile.xml" xy="250,800" size="250,250" group="n12_ebwa" controller="state,3"/>
+    <component id="n11_ebwa" name="Tile-9" src="ebwat32" fileName="TicTacToe/Components/Tile.xml" xy="500,800" size="250,250" group="n12_ebwa" controller="state,3"/>
+    <group id="n12_ebwa" name="Tiles" xy="0,300" size="750,750"/>
+  </displayList>
+</component>

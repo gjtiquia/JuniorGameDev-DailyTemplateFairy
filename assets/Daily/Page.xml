@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,1334" overflow="hidden">
+  <controller name="Page" pages="0,,1,,2,,3,,4,,5," selected="5">
+    <action type="play_transition" fromPage="" toPage="1" transition="ShowPage1"/>
+    <action type="play_transition" fromPage="" toPage="2" transition="ShowPage2"/>
+    <action type="play_transition" fromPage="" toPage="3" transition="ShowPage3"/>
+    <action type="play_transition" fromPage="" toPage="4" transition="ShowPage4"/>
+    <action type="play_transition" fromPage="" toPage="5" transition="ShowPage5"/>
+  </controller>
+  <displayList>
+    <graph id="n4_8dw9" name="n4" xy="0,0" size="750,1334" group="n7_8dw9" aspect="true" type="rect">
+      <relation target="" sidePair="width-width,height-height,center-center,middle-middle"/>
+    </graph>
+    <text id="n5_8dw9" name="n5" xy="48,56" size="653,555" group="n7_8dw9" font="ui://16q0hed8mpntt2l" fontSize="100" color="#ffffff" align="center" vAlign="middle" autoSize="none" strokeColor="#000000" strokeSize="0.277" faceDilate="0.375" text="Mini Game">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
+    <component id="n6_8dw9" name="StartButton" src="8dw9f" fileName="Components/CommonTextButton.xml" xy="275,887" group="n7_8dw9">
+      <relation target="" sidePair="center-center,middle-middle"/>
+      <Button controller="Page" page="5"/>
+    </component>
+    <group id="n7_8dw9" name="Page0" xy="0,0" size="750,1334" advanced="true">
+      <gearDisplay controller="Page" pages="0"/>
+    </group>
+    <graph id="n16_8dw9" name="n16" xy="0,0" size="750,1334" group="n1_8dw9" type="rect" fillColor="#ff6c5f52">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <component id="n0_8dw9" name="DragAndDrop" src="8dw91" fileName="DragAndDrop/DragAndDrop.xml" xy="0,0" group="n1_8dw9">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <group id="n1_8dw9" name="Page1" xy="0,0" size="750,1334" advanced="true">
+      <gearDisplay controller="Page" pages="1"/>
+    </group>
+    <graph id="n42_wu2x" name="n42" xy="0,0" size="750,1334" group="n41_ox78" type="rect">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <text id="n43_wu2x" name="n43" xy="116,131" size="518,79" group="n41_ox78" fontSize="60" align="center" vAlign="middle" text="Spot the difference"/>
+    <component id="n29_ox78" name="SpotDifference" src="maqg0" fileName="SpotDifference/SpotDifference.xml" xy="0,0" pivot="0.5,0.5" size="750,1334" group="n41_ox78" aspect="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <group id="n41_ox78" name="Page2" xy="0,0" size="750,1334" advanced="true">
+      <gearDisplay controller="Page" pages="2"/>
+    </group>
+    <graph id="n57_gr9b" name="n57" xy="0,0" size="750,1334" group="n60_gr9b" type="rect">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <component id="n62_aocy" name="RotationGame" src="ox7813" fileName="Rotation/RotationGame.xml" xy="0,0" group="n60_gr9b">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <group id="n60_gr9b" name="Page3" xy="0,0" size="750,1334" advanced="true">
+      <gearDisplay controller="Page" pages="3"/>
+    </group>
+    <graph id="n77_cf7n" name="n77" xy="0,0" size="750,1334" group="n76_cf7n" type="rect" lineSize="0">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </graph>
+    <text id="n78_cf7n" name="n78" xy="215,225" size="320,104" group="n76_cf7n" fontSize="80" align="center" vAlign="middle" text="THE END">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
+    <group id="n76_cf7n" name="Page4" xy="0,0" size="750,1334" advanced="true">
+      <gearDisplay controller="Page" pages="4"/>
+    </group>
+    <graph id="n81_ebwa" name="n81" xy="0,0" size="750,1334" group="n80_ebwa" type="rect" lineColor="#00000000" fillColor="#ff2d2d2d"/>
+    <component id="n84_ebwa" name="TicTacToe" src="ebwat2z" fileName="TicTacToe/TicTacToe.xml" xy="0,0" group="n80_ebwa"/>
+    <text id="n83_ebwa" name="Title" xy="139,27" size="472,103" group="n80_ebwa" fontSize="65" color="#ffffff" align="center" autoSize="none" text="Tic Tac Toe"/>
+    <group id="n80_ebwa" name="Page5" xy="0,0" size="750,1334" advanced="true">
+      <gearDisplay controller="Page" pages="5"/>
+    </group>
+    <graph id="n18_8dw9" name="n18" xy="175,390" size="400,300" group="n20_8dw9" type="rect" lineSize="2" lineColor="#ff999999" corner="40"/>
+    <text id="n19_8dw9" name="n19" xy="225,500" size="271,79" group="n20_8dw9" fontSize="60" text="CORRECT!"/>
+    <group id="n20_8dw9" name="CorrectPopup" xy="175,390" size="400,300" visible="false" advanced="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+    <graph id="n69_ke7u" name="n69" xy="175,517" size="400,300" group="n71_ke7u" type="rect" lineSize="2" lineColor="#ff999999" corner="40"/>
+    <text id="n70_ke7u" name="n70" xy="250,627" size="238,79" group="n71_ke7u" fontSize="60" text="WRONG!"/>
+    <group id="n71_ke7u" name="WrongPopup" xy="175,517" size="400,300" visible="false" advanced="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+    <graph id="n63_pht3" name="block" xy="0,0" size="750,1334" visible="false" alpha="0" type="rect">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+  </displayList>
+  <transition name="ShowPage1">
+    <item time="0" type="Visible" target="n1_8dw9" value="true"/>
+    <item time="0" type="Visible" target="n7_8dw9" value="false"/>
+    <item time="0" type="Visible" target="n7_8dw9" value="false"/>
+    <item time="0" type="Visible" target="n7_8dw9" value="false"/>
+    <item time="0" type="Visible" target="n7_8dw9" value="false"/>
+  </transition>
+  <transition name="ShowPage2">
+    <item time="0" type="Visible" target="n1_8dw9" value="false"/>
+    <item time="0" type="Visible" target="n41_ox78" value="true"/>
+  </transition>
+  <transition name="ShowPage3">
+    <item time="0" type="Visible" target="n41_ox78" value="false"/>
+    <item time="0" type="Visible" target="n60_gr9b" value="true"/>
+  </transition>
+  <transition name="MiniGameCorrect">
+    <item time="0" type="Alpha" target="n20_8dw9" tween="true" startValue="0" endValue="1" duration="4"/>
+    <item time="0" type="Visible" target="n20_8dw9" value="true"/>
+    <item time="0" type="Visible" target="n63_pht3" value="true"/>
+    <item time="0" type="XY" target="n20_8dw9" tween="true" startValue="-,450" endValue="-,390" duration="4"/>
+    <item time="4" type="Alpha" target="n20_8dw9" tween="true" startValue="1" endValue="1" duration="16"/>
+    <item time="4" type="XY" target="n20_8dw9" tween="true" startValue="-,390" endValue="-,390" duration="16"/>
+    <item time="20" type="Alpha" target="n20_8dw9" tween="true" startValue="1" endValue="0" duration="4"/>
+    <item time="20" type="XY" target="n20_8dw9" tween="true" startValue="-,390" endValue="-,340" duration="4"/>
+    <item time="24" type="Visible" target="n20_8dw9" value="false"/>
+    <item time="24" type="Visible" target="n63_pht3" value="false"/>
+  </transition>
+  <transition name="ShowPage4">
+    <item time="0" type="Visible" target="n60_gr9b" value="false"/>
+    <item time="0" type="Visible" target="n76_cf7n" value="true"/>
+  </transition>
+  <transition name="MiniGameWrong">
+    <item time="0" type="Alpha" target="n71_ke7u" tween="true" startValue="0" endValue="1" duration="4"/>
+    <item time="0" type="Visible" target="n63_pht3" value="true"/>
+    <item time="0" type="Visible" target="n71_ke7u" value="true"/>
+    <item time="0" type="XY" target="n71_ke7u" tween="true" startValue="-,450" endValue="-,390" duration="4"/>
+    <item time="4" type="Alpha" target="n71_ke7u" tween="true" startValue="1" endValue="1" duration="16"/>
+    <item time="4" type="XY" target="n71_ke7u" tween="true" startValue="-,390" endValue="-,390" duration="16"/>
+    <item time="20" type="Alpha" target="n71_ke7u" tween="true" startValue="1" endValue="0" duration="4"/>
+    <item time="20" type="XY" target="n71_ke7u" tween="true" startValue="-,390" endValue="-,340" duration="4"/>
+    <item time="24" type="Visible" target="n63_pht3" value="false"/>
+    <item time="24" type="Visible" target="n71_ke7u" value="false"/>
+  </transition>
+  <transition name="ShowPage5">
+    <item time="0" type="Visible" target="n76_cf7n" value="true"/>
+  </transition>
+</component>

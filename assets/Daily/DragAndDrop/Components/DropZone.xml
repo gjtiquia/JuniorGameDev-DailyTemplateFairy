@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="246,286">
+  <controller name="DropType" exported="true" pages="0,,1,,6,,7,,8,,9," selected="5"/>
+  <controller name="IsCorrect" pages="0,False,1,True" selected="1">
+    <action type="play_transition" fromPage="0" toPage="1" transition="Correct"/>
+  </controller>
+  <displayList>
+    <graph id="n1_8dw9" name="n1" xy="0,0" size="246,286" alpha="0.5" type="rect" lineSize="4" lineColor="#ffff9933" fillColor="#ffcccccc">
+      <gearDisplay controller="IsCorrect" pages="0"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <loader id="n0_8dw9" name="icon" xy="0,0" pivot="0.5,0.5" size="246,286" url="ui://16q0hed8ofnk22" align="center" vAlign="middle" fill="scaleFree" clearOnPublish="true">
+      <gearDisplay controller="IsCorrect" pages="1"/>
+      <gearIcon controller="DropType" pages="0,1,6,7,8,9" values="ui://16q0hed8ofnk27|ui://16q0hed8ofnk26|ui://16q0hed8ofnk25|ui://16q0hed8ofnk24|ui://16q0hed8ofnk23|ui://16q0hed8ofnk22"/>
+    </loader>
+    <text id="n2_8dw9" name="title" xy="0,0" size="246,286" visible="false" fontSize="30" color="#ffffff" align="center" vAlign="middle" autoSize="none" text="">
+      <gearDisplay controller="IsCorrect" pages="1"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </text>
+  </displayList>
+  <transition name="Correct">
+    <item time="0" type="Scale" target="n0_8dw9" tween="true" startValue="1,1" endValue="1.1,1.1" duration="3"/>
+    <item time="3" type="Scale" target="n0_8dw9" tween="true" startValue="1.1,1.1" endValue="1,1" duration="6"/>
+  </transition>
+</component>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="62,63" extention="Button">
+  <controller name="button" pages="0,up" selected="0"/>
+  <displayList>
+    <loader id="n5_ndjq" name="SpotCheck" xy="0,0" pivot="0.5,0.5" size="62,63" url="ui://16q0hed8ndjq86" fill="scale"/>
+    <image id="n6_ndjq" name="n6" src="ndjq87" fileName="SpotDifference/Images/tick.png" xy="14,14" pivot="0.5,0.5" size="34,31" aspect="true" visible="false"/>
+    <text id="n7_ndjq" name="title" xy="0,-1" pivot="0.5,0.5" size="62,63" font="ui://16q0hed8mpntt2l" fontSize="40" color="#ffffff" align="center" vAlign="middle" autoSize="none" bold="true" text="1"/>
+  </displayList>
+  <Button/>
+  <transition name="CheckAns">
+    <item time="0" type="ColorFilter" target="n5_ndjq" tween="true" startValue="0,0,0,0" endValue="0,0,0,0.74" duration="1"/>
+    <item time="0" type="Scale" target="n5_ndjq" tween="true" startValue="1,1" endValue="1.06,1.06" duration="3"/>
+    <item time="0" type="Scale" target="n6_ndjq" tween="true" startValue="1,1" endValue="1.06,1.06" duration="3"/>
+    <item time="0" type="Scale" target="n7_ndjq" tween="true" startValue="1,1" endValue="1.06,1.06" duration="3"/>
+    <item time="0" type="Visible" target="n6_ndjq" value="false"/>
+    <item time="0" type="Visible" target="n7_ndjq" value="true"/>
+    <item time="1" type="Visible" target="n6_ndjq" value="true"/>
+    <item time="1" type="Visible" target="n7_ndjq" value="false"/>
+    <item time="3" type="Scale" target="n5_ndjq" tween="true" startValue="1.06,1.06" endValue="1,1" duration="3"/>
+    <item time="3" type="Scale" target="n6_ndjq" tween="true" startValue="1.06,1.06" endValue="1,1" duration="3"/>
+    <item time="3" type="Scale" target="n7_ndjq" tween="true" startValue="1.06,1.06" endValue="1,1" duration="3"/>
+  </transition>
+</component>

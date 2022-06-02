@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,1334">
+  <displayList>
+    <list id="n0_8dw9" name="DragItemList" xy="0,847" size="750,445" layout="flow_hz" lineGap="31" colGap="75" defaultItem="ui://16q0hed88dw9c" align="center" vAlign="middle" scrollItemToViewOnClick="false">
+      <relation target="" sidePair="center-center,middle-middle"/>
+      <item icon="ui://16q0hed8ofnk27" name="0"/>
+      <item icon="ui://16q0hed8ofnk26" name="1"/>
+      <item icon="ui://16q0hed8ofnk25" name="2"/>
+      <item icon="ui://16q0hed8ofnk24" name="3"/>
+      <item icon="ui://16q0hed8ofnk23" name="4"/>
+      <item icon="ui://16q0hed8ofnk22" name="5"/>
+    </list>
+    <component id="n3_8dw9" name="Drop-0" src="8dw9d" fileName="DragAndDrop/Components/DropZone.xml" xy="6,170" size="246,286"/>
+    <component id="n6_8dw9" name="Drop-1" src="8dw9d" fileName="DragAndDrop/Components/DropZone.xml" xy="252,170" size="246,286" controller="DropType,1"/>
+    <component id="n9_8dw9" name="Drop-2" src="8dw9d" fileName="DragAndDrop/Components/DropZone.xml" xy="498,170" size="246,286" controller="DropType,6"/>
+    <component id="n7_8dw9" name="Drop-3" src="8dw9d" fileName="DragAndDrop/Components/DropZone.xml" xy="6,456" size="246,286" controller="DropType,7"/>
+    <component id="n8_8dw9" name="Drop-4" src="8dw9d" fileName="DragAndDrop/Components/DropZone.xml" xy="252,456" size="246,286" controller="DropType,8"/>
+    <component id="n11_aalq" name="Drop-5" src="8dw9d" fileName="DragAndDrop/Components/DropZone.xml" xy="498,456" size="246,286" controller="DropType,9"/>
+  </displayList>
+</component>

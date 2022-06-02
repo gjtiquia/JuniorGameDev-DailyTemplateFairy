@@ -1,0 +1,23 @@
+{
+  "objectStatus": {
+    "n1_8dw9": {
+      "collapsed": true
+    },
+    "n20_8dw9": {
+      "collapsed": true,
+      "locked": true,
+      "hidden": true
+    },
+    "n71_ke7u": {
+      "collapsed": true,
+      "locked": true,
+      "hidden": true
+    },
+    "n63_pht3": {
+      "locked": true,
+      "hidden": true
+    }
+  },
+  "adaptiveTest": true,
+  "fitScreen": "FitSize"
+}

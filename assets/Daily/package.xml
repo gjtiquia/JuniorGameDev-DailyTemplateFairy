@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="16q0hed8">
+  <resources>
+    <component id="mi8p0" name="Page.xml" path="/" exported="true"/>
+    <component id="8dw91" name="DragAndDrop.xml" path="/DragAndDrop/" exported="true"/>
+    <component id="8dw9c" name="DragItem.xml" path="/DragAndDrop/Components/" exported="true"/>
+    <component id="8dw9d" name="DropZone.xml" path="/DragAndDrop/Components/" exported="true"/>
+    <component id="8dw9f" name="CommonTextButton.xml" path="/Components/" exported="true"/>
+    <component id="ox7813" name="RotationGame.xml" path="/Rotation/" exported="true"/>
+    <component id="yayy3" name="ScoreBar.xml" path="/SpotDifference/Components/" exported="true"/>
+    <component id="yayy5" name="Spot.xml" path="/SpotDifference/Components/" exported="true"/>
+    <component id="yayy7" name="AnsCheck-.xml" path="/SpotDifference/Components/" exported="true"/>
+    <component id="maqg0" name="SpotDifference.xml" path="/SpotDifference/" exported="true"/>
+    <component id="mwwv1c" name="Puzzle.xml" path="/Rotation/" exported="true"/>
+    <image id="ofnk1r" name="top.png" path="/Rotation/Images/" smoothing="false"/>
+    <image id="ofnk1s" name="topRight.png" path="/Rotation/Images/" smoothing="false"/>
+    <image id="ofnk1t" name="right.png" path="/Rotation/Images/" smoothing="false"/>
+    <image id="ofnk1u" name="bottomRight.png" path="/Rotation/Images/" smoothing="false"/>
+    <image id="ofnk1v" name="bottom.png" path="/Rotation/Images/" smoothing="false"/>
+    <image id="ofnk1w" name="bottomLeft.png" path="/Rotation/Images/" smoothing="false"/>
+    <image id="ofnk1x" name="left.png" path="/Rotation/Images/" smoothing="false"/>
+    <image id="ofnk1y" name="topLeft.png" path="/Rotation/Images/" smoothing="false"/>
+    <image id="ofnk1z" name="center.png" path="/Rotation/Images/" smoothing="false"/>
+    <image id="ofnk20" name="cardBack.png" path="/DragAndDrop/Images/" exported="true" smoothing="false"/>
+    <image id="ofnk21" name="pattern7.png" path="/DragAndDrop/Images/" exported="true" smoothing="false"/>
+    <image id="ofnk22" name="pattern6.png" path="/DragAndDrop/Images/" exported="true" smoothing="false"/>
+    <image id="ofnk23" name="pattern5.png" path="/DragAndDrop/Images/" exported="true" smoothing="false"/>
+    <image id="ofnk24" name="pattern4.png" path="/DragAndDrop/Images/" exported="true" smoothing="false"/>
+    <image id="ofnk25" name="pattern3.png" path="/DragAndDrop/Images/" exported="true" smoothing="false"/>
+    <image id="ofnk26" name="pattern2.png" path="/DragAndDrop/Images/" exported="true" smoothing="false"/>
+    <image id="ofnk27" name="pattern1.png" path="/DragAndDrop/Images/" exported="true" smoothing="false"/>
+    <image id="bhy32c" name="SpotDifferece2.png" path="/SpotDifference/Images/"/>
+    <image id="bhy32d" name="SpotDifference.png" path="/SpotDifference/Images/"/>
+    <font id="mpntt2l" name="WenQuanYiMicroHei.ttf" path="/" exported="true" renderMode="sdfaa" samplePointSize="70" boldWeight="1"/>
+    <image id="ndjq86" name="BigSpot.png" path="/SpotDifference/Images/" exported="true"/>
+    <image id="ndjq87" name="tick.png" path="/SpotDifference/Images/" exported="true"/>
+    <image id="ndjqt2o" name="finger.png" path="/Rotation/clickToStartImg/" exported="true"/>
+    <image id="ndjqt2p" name="frame.png" path="/Rotation/clickToStartImg/" exported="true"/>
+    <component id="ndjqt2t" name="AnsCheck.xml" path="/SpotDifference/Components/" exported="true"/>
+    <sound id="p6dit2x" name="NavigationButtonDing04.ogg" path="/Rotation/" exported="true"/>
+    <component id="ebwat2z" name="TicTacToe.xml" path="/TicTacToe/" exported="true"/>
+    <image id="ebwat30" name="TicTacToeGrid.png" path="/TicTacToe/Images/"/>
+    <image id="ebwat31" name="Circle.png" path="/TicTacToe/Images/"/>
+    <component id="ebwat32" name="Tile.xml" path="/TicTacToe/Components/" exported="true"/>
+    <image id="ebwat37" name="Cross.png" path="/TicTacToe/Images/"/>
+  </resources>
+  <publish name="" genCode="true"/>
+</packageDescription>

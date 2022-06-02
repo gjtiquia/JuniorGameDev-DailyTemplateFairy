@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="28,28">
+  <displayList>
+    <graph id="n30_exrn" name="SpotCheck" xy="0,0" size="28,28" aspect="true" type="eclipse" lineSize="3" lineColor="#ffffffff" fillColor="#fffe454d"/>
+  </displayList>
+  <transition name="CheckAns">
+    <item time="0" type="Color" target="n30_exrn" tween="true" startValue="#fe454d" endValue="#00cc00" duration="1"/>
+  </transition>
+</component>
