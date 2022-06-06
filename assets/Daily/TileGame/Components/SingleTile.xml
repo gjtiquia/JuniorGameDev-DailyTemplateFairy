@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <component size="135,135">
-  <controller name="Value" exported="true" pages="4,empty,0,2,1,4" selected="2"/>
+  <controller name="Value" exported="true" pages="4,empty,0,2,1,4,5,8,6,16,7,32,8,64,9,128,10,256" selected="2"/>
   <displayList>
-    <loader id="n0_ebwa" name="loader" xy="0,0" pivot="0.5,0.5" size="135,135" aspect="true">
-      <gearIcon controller="Value" pages="4,1" values="|" default="ui://16q0hed8ebwat3b"/>
+    <loader id="n0_ebwa" name="loader" xy="0,0" pivot="0.5,0.5" size="135,135" aspect="true" url="ui://16q0hed8ebwat3c">
+      <gearIcon controller="Value" pages="4,1" values="|ui://16q0hed8ebwat3c" default="ui://16q0hed8ebwat3b"/>
       <relation target="" sidePair="width-width,height-height"/>
     </loader>
   </displayList>

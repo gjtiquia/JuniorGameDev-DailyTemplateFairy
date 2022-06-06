@@ -17,7 +17,7 @@
     <component id="n16_ebwa" name="Tile-13" src="ebwat3a" fileName="TileGame/Components/SingleTile.xml" xy="316,670" group="n20_ebwa"/>
     <component id="n17_ebwa" name="Tile-14" src="ebwat3a" fileName="TileGame/Components/SingleTile.xml" xy="316,670" group="n20_ebwa"/>
     <component id="n18_ebwa" name="Tile-15" src="ebwat3a" fileName="TileGame/Components/SingleTile.xml" xy="316,670" group="n20_ebwa"/>
-    <component id="n19_ebwa" name="Tile-16" src="ebwat3a" fileName="TileGame/Components/SingleTile.xml" xy="316,670" group="n20_ebwa"/>
-    <group id="n20_ebwa" name="Tiles" xy="316,670" size="135,139"/>
+    <component id="n19_ebwa" name="Tile-16" src="ebwat3a" fileName="TileGame/Components/SingleTile.xml" xy="540,1125" group="n20_ebwa"/>
+    <group id="n20_ebwa" name="Tiles" xy="316,670" size="359,590"/>
   </displayList>
 </component>

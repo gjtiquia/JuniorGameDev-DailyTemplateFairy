@@ -1,8 +1,13 @@
 {
-  "libview.firstColumnWidth": 283,
+  "libview.firstColumnWidth": 355,
   "libview.iconScale": 0,
   "doc.openedDocs": [
     "ui://16q0hed8mi8p0",
+    "ui://16q0hed8ebwat38",
+    "ui://16q0hed8ebwat3a",
+    "ui://16q0hed8ebwat2z",
+    "ui://16q0hed8ebwat32",
+    "ui://16q0hed8ndjqt2t",
     "ui://16q0hed8maqg0",
     "ui://16q0hed8yayy5",
     "ui://16q0hed88dw91",
@@ -14,11 +19,19 @@
   "test.device": "iPad",
   "canvasColor": 10066329,
   "auxline2": true,
-  "doc.activeDoc": "ui://16q0hed8mi8p0",
+  "doc.activeDoc": "ui://16q0hed8ebwat3a",
   "libview.twoColumn": false,
   "libview.expandedNodes": [
     "16q0hed8",
-    "/"
+    "/",
+    "16q0hed8",
+    "/Components/",
+    "16q0hed8",
+    "/TileGame/",
+    "16q0hed8",
+    "/TileGame/Components/",
+    "16q0hed8",
+    "/TileGame/Images/"
   ],
   "auxline1": true,
   "snapToGrid": true,

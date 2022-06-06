@@ -47,6 +47,13 @@
     <image id="ebwat39" name="bg.png" path="/TileGame/Images/"/>
     <component id="ebwat3a" name="SingleTile.xml" path="/TileGame/Components/" exported="true"/>
     <image id="ebwat3b" name="tile2.png" path="/TileGame/Images/"/>
+    <image id="ebwat3c" name="tile4.png" path="/TileGame/Images/"/>
+    <image id="ebwat3d" name="tile128.png" path="/TileGame/Images/"/>
+    <image id="ebwat3e" name="tile16.png" path="/TileGame/Images/"/>
+    <image id="ebwat3f" name="tile256.png" path="/TileGame/Images/"/>
+    <image id="ebwat3g" name="tile32.png" path="/TileGame/Images/"/>
+    <image id="ebwat3h" name="tile64.png" path="/TileGame/Images/"/>
+    <image id="ebwat3i" name="tile8.png" path="/TileGame/Images/"/>
   </resources>
   <publish name="" genCode="true"/>
 </packageDescription>
