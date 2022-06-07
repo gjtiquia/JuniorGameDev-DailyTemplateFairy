@@ -54,6 +54,14 @@
     <image id="ebwat3g" name="tile32.png" path="/TileGame/Images/"/>
     <image id="ebwat3h" name="tile64.png" path="/TileGame/Images/"/>
     <image id="ebwat3i" name="tile8.png" path="/TileGame/Images/"/>
+    <image id="obept3j" name="tile1024.png" path="/TileGame/Images/"/>
+    <image id="obept3k" name="tile16384.png" path="/TileGame/Images/"/>
+    <image id="obept3l" name="tile2048.png" path="/TileGame/Images/"/>
+    <image id="obept3m" name="tile32768.png" path="/TileGame/Images/"/>
+    <image id="obept3n" name="tile4096.png" path="/TileGame/Images/"/>
+    <image id="obept3o" name="tile512.png" path="/TileGame/Images/"/>
+    <image id="obept3p" name="tile65536.png" path="/TileGame/Images/"/>
+    <image id="obept3q" name="tile8192.png" path="/TileGame/Images/"/>
   </resources>
   <publish name="" genCode="true"/>
 </packageDescription>
